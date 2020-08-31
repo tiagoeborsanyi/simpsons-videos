@@ -1,10 +1,12 @@
 import React from 'react'
 
+import Header from './layout/header/header'
+
 function App() {
   return (
-    <div>
-      <h1>INITAL PROJECT</h1>
-    </div>
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
   )
 }
 

@@ -8,6 +8,10 @@ function App() {
     <React.Fragment>
       <Header />
       <Videos />
+      <div className='line'>
+        <div className='line__simple'></div>
+        <div className='line__center'></div>
+      </div>
     </React.Fragment>
   )
 }

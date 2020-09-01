@@ -18,3 +18,24 @@ body {
     line-height: 1.7;
     color: $color-grey-dark;
 }
+
+.line {
+    position: relative;
+    &__simple {
+        height: 1px;
+        width: 100%;
+        background-color: $color-grey-dark-2;
+    }
+
+    &__center {
+        height: 8px;
+        width: 15rem;
+        border-radius: 20px;
+        background-color: $color-primary;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+    }
+}

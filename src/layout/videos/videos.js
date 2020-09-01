@@ -29,7 +29,49 @@ const Videos = () => {
                 <div className='videos__list'>
                     <ul className='videos__list--items'>
                         <li className='videos__list--item'>
-                            <img src={require('../../assets/images/video-local-programming.jpg')} alt='video' />
+                            <div className='videos__list--item_img first'>
+                                <span class="material-icons">play_arrow</span>
+                            </div>
+                            <div className='videos__list--item_text'>
+                                <p>6:00 AM - 12:00 PM</p>
+                                <p>Local Programming</p>
+                            </div>
+                        </li>
+                        <li className='videos__list--item'>
+                            <div className='videos__list--item_img second'>
+                                <span class="material-icons">play_arrow</span>
+                            </div>
+                            <div className='videos__list--item_text'>
+                                <p>12:00 PM - 13:00 PM</p>
+                                <p>Family Guy</p>
+                            </div>
+                        </li>
+                        <li className='videos__list--item'>
+                            <div className='videos__list--item_img third'>
+                                <span class="material-icons">play_arrow</span>
+                            </div>
+                            <div className='videos__list--item_text'>
+                                <p>13:00 PM - 15:00 PM</p>
+                                <p>The Simpsons</p>
+                            </div>
+                        </li>
+                        <li className='videos__list--item'>
+                            <div className='videos__list--item_img four'>
+                                <span class="material-icons">play_arrow</span>
+                            </div>
+                            <div className='videos__list--item_text'>
+                                <p>15:00 PM - 17:00 PM</p>
+                                <p>Futurama</p>
+                            </div>
+                        </li>
+                        <li className='videos__list--item'>
+                            <div className='videos__list--item_img five'>
+                                <span class="material-icons">play_arrow</span>
+                            </div>
+                            <div className='videos__list--item_text'>
+                                <p>17:00 PM - 12:00 PM</p>
+                                <p>American</p>
+                            </div>
                         </li>
                     </ul>
                 </div>

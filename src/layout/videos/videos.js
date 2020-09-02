@@ -30,7 +30,7 @@ const Videos = () => {
                     <ul className='videos__list--items'>
                         <li className='videos__list--item'>
                             <div className='videos__list--item_img first'>
-                                <span class="material-icons">play_arrow</span>
+                                <span className="material-icons">play_arrow</span>
                             </div>
                             <div className='videos__list--item_text'>
                                 <p>6:00 AM - 12:00 PM</p>
@@ -39,7 +39,7 @@ const Videos = () => {
                         </li>
                         <li className='videos__list--item'>
                             <div className='videos__list--item_img second'>
-                                <span class="material-icons">play_arrow</span>
+                                <span className="material-icons">play_arrow</span>
                             </div>
                             <div className='videos__list--item_text'>
                                 <p>12:00 PM - 13:00 PM</p>
@@ -48,7 +48,7 @@ const Videos = () => {
                         </li>
                         <li className='videos__list--item'>
                             <div className='videos__list--item_img third'>
-                                <span class="material-icons">play_arrow</span>
+                                <span className="material-icons">play_arrow</span>
                             </div>
                             <div className='videos__list--item_text'>
                                 <p>13:00 PM - 15:00 PM</p>
@@ -57,7 +57,7 @@ const Videos = () => {
                         </li>
                         <li className='videos__list--item'>
                             <div className='videos__list--item_img four'>
-                                <span class="material-icons">play_arrow</span>
+                                <span className="material-icons">play_arrow</span>
                             </div>
                             <div className='videos__list--item_text'>
                                 <p>15:00 PM - 17:00 PM</p>
@@ -66,7 +66,7 @@ const Videos = () => {
                         </li>
                         <li className='videos__list--item'>
                             <div className='videos__list--item_img five'>
-                                <span class="material-icons">play_arrow</span>
+                                <span className="material-icons">play_arrow</span>
                             </div>
                             <div className='videos__list--item_text'>
                                 <p>17:00 PM - 12:00 PM</p>

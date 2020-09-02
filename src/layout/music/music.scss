@@ -1,0 +1,169 @@
+.musica {
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__list {
+        margin-top: 2.5rem;
+        &--items {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        &--item {
+            padding-top: 1rem;
+            &_img {
+                height: 13rem;
+                width: 13rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-shadow: 0 17px 21px -15px rgba($color-black, .95);
+                transition: all .3s;
+
+                & > span {
+                    font-size: 3rem;
+                    color: $color-white;
+                    padding: .2rem;
+                    background-color: rgba($color-black, .7);
+                    border-radius: 50%;
+                    opacity: 0;
+                }
+
+                &:hover,
+                &:hover > span {
+                    cursor: pointer;
+                    opacity: 1;
+                    transform: translateY(2px) scale(1.2);
+                }
+            }
+
+            &_text {
+                width: fit-content;
+                margin: auto;
+                margin-top: 2rem;
+                font-size: 1.3rem;
+                font-weight: 500;
+                line-height: 1.3;
+
+                & > p:last-child {
+                    color: $color-black;
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.musica__list--item_img.first {
+    background-image: linear-gradient(80deg, rgba($color-black, 0.4), rgba($color-grey-dark-3, 0.4)), url('../../assets/images/music-with-you.jpg');
+}
+.musica__list--item_img.second {
+    background-image: linear-gradient(80deg, rgba($color-black, 0.4), rgba($color-grey-dark-3, 0.4)), url('../../assets/images/music-butter.jpg');
+}
+.musica__list--item_img.third {
+    background-image: linear-gradient(80deg, rgba($color-black, 0.4), rgba($color-grey-dark-3, 0.4)), url('../../assets/images/music-back-together.jpg');
+}
+.musica__list--item_img.four {
+    background-image: linear-gradient(80deg, rgba($color-black, 0.4), rgba($color-grey-dark-3, 0.4)), url('../../assets/images/music-unwind.jpg');
+}
+
+.music__col-1 {
+    height: 100%;
+    width: 15%;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > span {
+        font-size: 6rem;
+        color: $color-primary;
+    }
+}
+
+.music__col-2,
+.music__col-3 {
+    height: 100%;
+    width: 42%;
+    padding: 3rem 0;
+}
+
+.player {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    &__first {
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__second {
+        height: 8rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 3rem;
+        font-size: 1.8rem;
+
+        &--line {
+            position: relative;
+
+            &_one {
+                height: 2px;
+                width: 30rem;
+                background-color: rgba($color-black, .2);
+                border-radius: 20px;
+            }
+
+            &_second {
+                height: 3px;
+                width: 40%;
+                border-radius: 20px;
+                background-color: $color-black;
+                position: absolute;
+                top: 50%;
+                left: 0%;
+                transform: translateY(-50%);
+
+                &::after {
+                    content: "";
+                    height: 1.2rem;
+                    width: 1.2rem;
+                    border-radius: 50%;
+                    background-color: $color-black;
+                    position: absolute;
+                    right: -6px;
+                    top: -5px;
+                }
+            }
+        }
+    }
+
+    &__image {
+        height: 100%;
+        margin-right: 1.5rem;
+    }
+
+    &__title {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.5;
+
+        & > h2 {
+            color: $color-black;
+            font-weight: 500;
+        }
+    }
+}
